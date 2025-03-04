@@ -6,11 +6,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        LazyHStack {
             Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                .imageScale(.medium)
+                .foregroundColor(.primary)
+            Text("Hello, rpaka!")
         }
         .padding()
     }
